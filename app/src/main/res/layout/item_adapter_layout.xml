@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:siBorderWidth="2dp"
+            android:id="@+id/ItemAdapter_ImageView"
+            app:siBorderColor="@color/White"/>
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carters"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:id="@+id/ItemAdapter_Brand"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shirt;Pants"
+                android:id="@+id/ItemAdapter_Type" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boys"
+                android:id="@+id/ItemAdapter_Gender" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target"
+                android:id="@+id/ItemAdapter_Store"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05154845622"
+                android:id="@+id/ItemAdapter_Barcode" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

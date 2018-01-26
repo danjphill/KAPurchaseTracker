@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/list_stat_chart1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_stat_gridView1"
+        android:numColumns="3"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:background="@color/White"
+        android:textAlignment="center"
+        android:stretchMode="spacingWidthUniform"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </GridView>
+</LinearLayout>

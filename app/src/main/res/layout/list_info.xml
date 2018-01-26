@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        >
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/new_item"
+        app:siBorderWidth="2dp"
+        android:id="@+id/Picture_ListInfo"
+        app:siBorderColor="@color/White"/>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand: Carters"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:id="@+id/Brand_ListInfo"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type: Shirt;Pants"
+            android:paddingTop="3dp"
+        android:id="@+id/Type_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Stripe;Plaid"
+            android:paddingTop="3dp"
+            android:id="@+id/Pattern_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: Boys"
+            android:paddingTop="3dp"
+            android:id="@+id/Gender_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Store: Target"
+            android:paddingTop="3dp"
+            android:id="@+id/Store_ListInfo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barcode: 05154845622"
+            android:paddingTop="3dp"
+            android:id="@+id/Barcode_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Light Blue"
+            android:paddingTop="3dp"
+            android:id="@+id/Colour_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size: 0-3 Months"
+            android:paddingTop="3dp"
+            android:id="@+id/Size_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $10.00"
+            android:paddingTop="3dp"
+            android:id="@+id/Price_ListInfo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: This is a nice top"
+            android:paddingTop="3dp"
+            android:id="@+id/Description_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pieces: 3"
+            android:paddingTop="3dp"
+            android:id="@+id/Pieces_ListInfo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accessories: 2 Belts"
+            android:paddingTop="3dp"
+            android:id="@+id/Accessories_ListInfo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: 3"
+            android:paddingTop="3dp"
+            android:id="@+id/ID_ListInfo" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

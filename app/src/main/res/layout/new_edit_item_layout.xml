@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" >
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Barcode"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+
+
+            android:id="@+id/barcode_TextView" />
+
+        <EditText
+            android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/barcode_EditText" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Item Type"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/Type_TextView"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Type_EditText"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Item Colour"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/Color_TextView"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Color_EditText"
+            android:padding="10dp"/>
+    </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Item Pattern"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/Pattern_TextView"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Pattern_EditText"
+                    android:padding="10dp"/>
+            </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:id="@+id/gender_TextView"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender_Spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Brand"
+            android:id="@+id/brand_TextView"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/brand_EditText" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Size"
+            android:id="@+id/size_TextView"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/size_Spinner"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:id="@+id/price_TextView"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/price_EditText"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Store"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/store_TextView"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/store_EditText"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/description_TextView"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_EditText"
+            android:lines="10"
+            android:maxLines="10"
+            android:minLines="1"
+            android:scrollbars="vertical"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="No. of Pieces"
+        android:id="@+id/pieces_TextView"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/pieces_EditText"
+            android:padding="5dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Accessories"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/accessories_TextView"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accessories_EditText"
+            android:padding="5dp"/>
+    </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Picture"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:id="@+id/picture_TextView"
+                    android:padding="5dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/picture_ImageView" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take Picture"
+                    android:id="@+id/picture_Button" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

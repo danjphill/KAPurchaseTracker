@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/about_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Tracker"
+            android:id="@+id/about_title"
+            android:layout_centerVertical="true"
+            android:layout_above="@+id/about_version"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updated 10.02.16"
+            android:id="@+id/about_date"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/about_designedby" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version: Beta 3"
+            android:id="@+id/about_version"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view"
+            android:src="@mipmap/launcher_icon"
+            android:layout_above="@+id/about_title"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2016 Danaco Software"
+            android:id="@+id/about_copyright"
+            android:layout_below="@+id/about_version"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designed By Daniel Phillips"
+            android:id="@+id/about_designedby"
+            android:layout_below="@+id/about_copyright"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Report Error"
+            android:id="@+id/about_button"
+            android:layout_below="@+id/about_designedby"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
